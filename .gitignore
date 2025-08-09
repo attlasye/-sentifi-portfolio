@@ -12,3 +12,4 @@ node_modules/
 
 # Mac系统文件
 .DS_Store
+sentifi-app/public/data/
