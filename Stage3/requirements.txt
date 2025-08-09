@@ -2,3 +2,6 @@ setuptools
 wheel
 fastapi
 uvicorn
+numpy
+pandas
+python-multipart
