@@ -1,0 +1,14 @@
+# 虚拟环境 - 绝对不上传
+venv/
+Stage3/venv/
+
+# Python临时文件
+__pycache__/
+*.pyc
+.env
+
+# Node依赖
+node_modules/
+
+# Mac系统文件
+.DS_Store
