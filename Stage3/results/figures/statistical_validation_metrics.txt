@@ -1,0 +1,5 @@
+   Model Out-of-Sample R2 Directional Accuracy (%)
+   RIDGE           0.0008                   48.97%
+     HGB          -0.0211                   46.61%
+     OLS           0.0007                   48.95%
+ENSEMBLE          -0.0028                   48.72%

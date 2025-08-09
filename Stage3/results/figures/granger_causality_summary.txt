@@ -1,0 +1,38 @@
+Granger Causality Analysis Summary
+========================================
+Test: d_Overall->ret_btc
+Interpretation: No strong evidence that d_Overall Granger-causes ret_btc (min p=0.4529)
+--- Detailed p-values ---
+ lag   F_stat  p_value
+   1 0.099202 0.752972
+   2 0.650173 0.522571
+   3 0.830234 0.477918
+   4 0.919017 0.452889
+
+Test: d_BTC->ret_btc
+Interpretation: No strong evidence that d_BTC Granger-causes ret_btc (min p=0.1064)
+--- Detailed p-values ---
+ lag   F_stat  p_value
+   1 2.619755 0.106414
+   2 1.772043 0.171473
+   3 1.255596 0.289494
+   4 0.955080 0.432258
+
+Test: ret_btc->d_Overall
+Interpretation: ret_btc Granger-causes d_Overall (p=0.0000, lag=4)
+--- Detailed p-values ---
+ lag    F_stat      p_value
+   1 25.543216 6.888546e-07
+   2 13.315204 2.643958e-06
+   3 11.767007 2.290908e-07
+   4 10.645323 3.735645e-08
+
+Test: ret_btc->d_BTC
+Interpretation: ret_btc Granger-causes d_BTC (p=0.0000, lag=4)
+--- Detailed p-values ---
+ lag    F_stat  p_value
+   1 11.008940 0.000999
+   2  8.137769 0.000350
+   3  7.880795 0.000042
+   4  7.524055 0.000008
+

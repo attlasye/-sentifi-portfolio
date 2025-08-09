@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: sentifi-api
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "uvicorn api_server:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: CRYPTOCOMPARE_API_KEY
+        sync: false
