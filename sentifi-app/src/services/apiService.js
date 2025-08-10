@@ -1,7 +1,7 @@
 // src/services/apiService.js
 import axios from 'axios';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://b2dd5a20-3dcb-4a7e-adb3-61cb9783cf0f-00-11h9p7aiiu64h.kirk.replit.dev';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://sentifi-portfolio-attlasye.replit.app';
 
 class ApiService {
   constructor() {
